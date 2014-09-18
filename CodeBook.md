@@ -32,8 +32,8 @@ The "run_analysis.R" script performs the following work to clean up the raw data
     "sitting",
 	"standing",
 	"walking",
-	"walking downstairs",
-	"walking upstairs"
+	"walkingdownstairs",
+	"walkingupstairs"
 
 1. The 3 merged data sets above are combined together, the results is 10299 by 68 data frame. 
 

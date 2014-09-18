@@ -56,7 +56,7 @@ names(data) <- gsub("\\(|\\)", "", names(data))
 
 # Read in the labels for activity names.
 activities <- read.table("activity_labels.txt")
-activities[, 2] = gsub("_", " ", tolower(as.character(activities[, 2])))
+activities[, 2] = gsub("_", "", tolower(as.character(activities[, 2])))
 labels[,1] = activities[labels[,1], 2]
 
 # 4. Appropriately labels the data set with descriptive activity names.
